@@ -6,7 +6,7 @@ jobs:
     steps: 
       - name: Print greeting # Namnet på vårt steg
         run: echo "Hello world" # "run" betyder att vi kör ett command
-      - name: Print goodbuy
+      - name: Print goodbye
         run: echo "Goodbye!"
     
     
