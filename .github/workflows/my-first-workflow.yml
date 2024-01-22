@@ -1,0 +1,12 @@
+name: My First Workflow #Namnet på mitt workflow
+on: workflow_dispatch # Vilket event ska trigga detta workflow? "workflow dispatch" betyder manuell trigging med knapptryck
+jobs: 
+  my-first-job: # Namnet på mitt jobb! detta kan jag bestämma helt själv
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Print greeting # Namnet på vårt steg
+        run: echo "Hello world" # "run" betyder att vi kör ett command
+      - name: Print goodbuy
+        run: echo "Goodbye!"
+    
+    
